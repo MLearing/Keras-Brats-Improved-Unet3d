@@ -24,13 +24,17 @@ nipype
 
 3. Install [ANTs N4BiasFieldCorrection](https://github.com/stnava/ANTs/releases) and add the location of the ANTs 
 binaries to the PATH environmental variable.
-
+```
+#ANTs
+export PATH=/usr/local/antsbin/bin:$PATH
+export ANTSPATH=/usr/local/antsbin/bin
+```
 4. Add the repository directory to the ```PYTONPATH``` system variable:
 ```
 $ export PYTHONPATH=${PWD}:$PYTHONPATH
 ```
 ```
-mask:添加PYTHONPATH的方法也是这样，在.bashrc中添加
+添加PYTHONPATH的方法，在.bashrc中添加
 export PYTHONPATH=/home/zhao/setup/caffe-master/python:/home/zhao/setup/mypy:$PYTHONPATH 
 保存后在终端输入 $ source ~/.bashrc 使环境变量立即生效
 ```
