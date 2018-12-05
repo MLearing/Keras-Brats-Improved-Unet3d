@@ -39,7 +39,7 @@ $ export PYTHONPATH=${PWD}:$PYTHONPATH
 export PYTHONPATH=/home/zhao/setup/caffe-master/python:/home/zhao/setup/mypy:$PYTHONPATH 
 保存后在终端输入 $ source ~/.bashrc 使环境变量立即生效
 ```
-####(代替步骤3和4的方法)
+#### (代替步骤3和4的方法)
 ```
 解决方案：安装ANTs软件，建议源码安装。这里是一个编译完成的库，直接放到/usr/bin/下。
 地址：https://sourceforge.net/projects/advants/
