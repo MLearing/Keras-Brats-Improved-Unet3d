@@ -28,6 +28,7 @@ binaries to the PATH environmental variable.
 #ANTs
 export PATH=/usr/local/antsbin/bin:$PATH
 export ANTSPATH=/usr/local/antsbin/bin
+参考：https://blog.csdn.net/faceSunshine/article/details/78592508
 ```
 4. Add the repository directory to the ```PYTONPATH``` system variable:
 ```
@@ -37,6 +38,11 @@ $ export PYTHONPATH=${PWD}:$PYTHONPATH
 添加PYTHONPATH的方法，在.bashrc中添加
 export PYTHONPATH=/home/zhao/setup/caffe-master/python:/home/zhao/setup/mypy:$PYTHONPATH 
 保存后在终端输入 $ source ~/.bashrc 使环境变量立即生效
+```
+####(代替步骤3和4的方法)
+```
+解决方案：安装ANTs软件，建议源码安装。这里是一个编译完成的库，直接放到/usr/bin/下。
+地址：https://sourceforge.net/projects/advants/
 ```
 
 5. Convert the data to nifti format and perform image wise normalization and correction:
