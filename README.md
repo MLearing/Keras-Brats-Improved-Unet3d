@@ -38,7 +38,8 @@ $ export PYTHONPATH=${PWD}:$PYTHONPATH
 #### (代替步骤3和4的方法)
 ```
 解决方案：安装ANTs软件，建议源码安装。这里是一个编译完成的库，直接放到/usr/bin/下。
-地址：https://sourceforge.net/projects/advants/
+地址：https://sourceforge.net/projects/advants/ 在linux系统下打开下载的才是适合linux系统的版本，也可以用下面的代替地址
+代替地址：https://github.com/MLearing/ANTs-1.9.x-Linux
 ```
 
 5. Convert the data to nifti format and perform image wise normalization and correction:
