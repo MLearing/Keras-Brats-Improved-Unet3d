@@ -68,7 +68,10 @@ $ python train_isensee2017.py
 **If you run out of memory during training:** try setting 
 ```config['patch_shape`] = (64, 64, 64)``` for starters. 
 Also, read the "Configuration" notes at the bottom of this page.
-
+### note
+该程序是针对nvidia 1080以上GPU的，如果显卡低于上述配置，可能出现Process finished with exit code 139(interruped by signal 11:SIGSEGV)问题
+原因：电脑配置太low，数据存储格式是h5格式的，训练到epoch的最后一次获取验证数据的时候，读取h5数据太慢，而训练的速度太快导致获取不到数据，即验证数组为空，出现段错误。
+解决办法：进入get_training_and_validation_generator这个函数后，把h5中的数据直接提取出来换成数组即可。
 ### Write prediction images from the validation data
 In the training above, part of the data was held out for validation purposes. 
 To write the predicted label maps to file:
