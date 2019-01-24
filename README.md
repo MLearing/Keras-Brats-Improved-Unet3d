@@ -12,7 +12,7 @@ be easily modified to be used in other 3D applications.
 
 ## Tutorial using BRATS Data and Python 3
 ### Training
-1. Download the BRATS 2018 data by following the steps outlined on the [BRATS 2018 competition page](https://www.med.upenn.edu/sbia/brats2018/registration.html) or [baidu yun](https://pan.baidu.com/s/1H1FBedFHJOqPkj5mBBlKaw). Password:nbs3. Place the unzipped folders in the 
+1. Download the BRATS 2018 data by following the steps outlined on the [BRATS 2018 competition page](https://www.med.upenn.edu/sbia/brats2018/registration.html) or [Baidu yun](https://pan.baidu.com/s/1H1FBedFHJOqPkj5mBBlKaw). ```Password:nbs3```. Place the unzipped folders in the 
 ```brats/data/original``` folder.
 2. Install dependencies: 
 ```
