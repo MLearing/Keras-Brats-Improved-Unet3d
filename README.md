@@ -12,7 +12,7 @@ be easily modified to be used in other 3D applications.
 
 ## Tutorial using BRATS Data and Python 3
 ### Training
-1. Download the BRATS 2018 data by following the steps outlined on the [BRATS 2018 competition page](https://www.med.upenn.edu/sbia/brats2018/registration.html). Place the unzipped folders in the 
+1. Download the BRATS 2018 data by following the steps outlined on the [BRATS 2018 competition page](https://www.med.upenn.edu/sbia/brats2018/registration.html) or [baidu yun](https://pan.baidu.com/s/1H1FBedFHJOqPkj5mBBlKaw). Password:nbs3. Place the unzipped folders in the 
 ```brats/data/original``` folder.
 2. Install dependencies: 
 ```
@@ -38,7 +38,7 @@ $ export PYTHONPATH=${PWD}:$PYTHONPATH
 参考：https://zhuanlan.zhihu.com/p/43932439
 ```
 
-#### (代替步骤3和4的方法)
+(代替步骤3和4的方法)
 ```
 解决方案：安装ANTs软件，建议源码安装。这里是一个编译完成的库，直接放到/usr/bin/下。
 地址：https://sourceforge.net/projects/advants/ 在linux系统下打开下载的才是适合linux系统的版本，也可以用下面的代替地址
