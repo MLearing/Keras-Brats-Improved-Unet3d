@@ -1,7 +1,7 @@
 # 3D U-Net Convolution Neural Network with Keras
 ![Tumor Segmentation Example](doc/tumor_segmentation_illusatration.gif)
 ## Reference
-web：http://hometown.group/category/projects/3d-u-net/
+web：http://learncv.cn/archives/category/projects/3d-u-net
 
 ## Background
 Originally designed after [this paper](http://lmb.informatik.uni-freiburg.de/Publications/2016/CABR16/cicek16miccai.pdf) on 
